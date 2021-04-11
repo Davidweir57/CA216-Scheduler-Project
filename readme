@@ -1,0 +1,8 @@
+How to run:
+
+        - python3 driver.py <text file containing tasks>
+
+        e.g. python3 driver.py schedule.txt
+
+        This will run all create a list of all tasks and run each schedule programs on the list. It will display the list sorted by each schedule,
+        the average waiting times for each scheduler and the turnaround times of each task in all schedulers.
