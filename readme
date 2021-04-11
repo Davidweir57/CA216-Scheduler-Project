@@ -9,13 +9,13 @@ How to run:
 
 Link to youtube presentation video:
 
-        -
+        - https://youtu.be/fGS7jKt9D0I
 
 Answers to Solo Project Questions:
 
         Q1. In general all schedulers had very close average waiting times and turnaround times, with the exception of examples where all tasks
-        have the same CPU burst and priority in these cases FCFS, SJF and Priority have identical TAT and wait time whereas ROund Robin takes longer.
-        However, in all cases SJF performed the best. SJF gives the smallest average waiting time and TAT for any given set of processes as the
+        have the same CPU burst and priority in these cases FCFS, SJF and Priority have identical TAT and wait time whereas Round Robin takes longer.
+        However, in all other cases SJF performed the best. SJF gives the smallest average waiting time and TAT for any given set of processes as the
         smallest tasks are completed first minimising the time each task waits. In comparision for example: with FCFS and Priority small tasks
         could be waiting very long times as they have a lower priority or came in after a larger task. 
 
@@ -24,9 +24,9 @@ Answers to Solo Project Questions:
                         P2, 4, 5
 
         FCFS and Priority are entirely dependant on the order of the tasks and their priority due to this they can perform vastly different depending
-        on the situation. In general FCFS has long wait times and TAT as smaller tasks get stuck behind large tasks. In our examples, Priority and
+        on the situation. In general FCFS has long wait times and TAT as smaller tasks get stuck behind large tasks. In these examples, Priority and
         FCFS had very similar performances sharing wait time and TAT in schedule.txt and Priority performing better in book.txt with a wait time
-        of 3.0 (Priority) and 3.2 (FCFS). In our examples Round Robin performed the worst of the 4 schedulers. Round Robin is heavily dependant on
+        of 3.0 (Priority) and 3.2 (FCFS). In these examples Round Robin performed the worst of the 4 schedulers. Round Robin is heavily dependant on
         the size of the time quantum. At larger quantums RR gets closer to or identical to FCFS whereas smaller quantums will drastically slow down
         performance time.
 
