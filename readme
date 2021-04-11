@@ -5,4 +5,35 @@ How to run:
         e.g. python3 driver.py schedule.txt
 
         This will run all create a list of all tasks and run each schedule programs on the list. It will display the list sorted by each schedule,
-        the average waiting times for each scheduler and the turnaround times of each task in all schedulers.
+        the average waiting times for each scheduler and the turnaround times (TAT) of each task in all schedulers.
+
+Link to youtube presentation video:
+
+        -
+
+Answers to Solo Project Questions:
+
+        Q1. In general all schedulers had very close average waiting times and turnaround times, with the exception of examples where all tasks
+        have the same CPU burst and priority in these cases FCFS, SJF and Priority have identical TAT and wait time whereas ROund Robin takes longer.
+        However, in all cases SJF performed the best. SJF gives the smallest average waiting time and TAT for any given set of processes as the
+        smallest tasks are completed first minimising the time each task waits. In comparision for example: with FCFS and Priority small tasks
+        could be waiting very long times as they have a lower priority or came in after a larger task. 
+
+                Example:
+                        P1, 2, 100
+                        P2, 4, 5
+
+        FCFS and Priority are entirely dependant on the order of the tasks and their priority due to this they can perform vastly different depending
+        on the situation. In general FCFS has long wait times and TAT as smaller tasks get stuck behind large tasks. In our examples, Priority and
+        FCFS had very similar performances sharing wait time and TAT in schedule.txt and Priority performing better in book.txt with a wait time
+        of 3.0 (Priority) and 3.2 (FCFS). In our examples Round Robin performed the worst of the 4 schedulers. Round Robin is heavily dependant on
+        the size of the time quantum. At larger quantums RR gets closer to or identical to FCFS whereas smaller quantums will drastically slow down
+        performance time.
+
+        Q2. I used Python's general-purpose list to store the processes that would be read in from the user provided file. Python makes list
+        manipulation relatively simple. Using a general-purpose list allows me to add, alter or remove an element from anywhere in a list if
+        required as opposed to a Queue for example which only allows you to work on elements at one end. This makes indexing and sorting based
+        on CPU burst or Priority easy to do while also allowing me to easily loop through the list or edit an element in the tasks such as CPU
+        burst in RR. In short lists are easy to implement and manipulate.
+
+
