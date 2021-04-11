@@ -1,0 +1,67 @@
+FCFS:
+Running task = P1 4 5 for 5 units.
+Running task = P2 1 3 for 5 units.
+Running task = P3 2 1 for 5 units.
+Running task = P4 2 7 for 5 units.
+Running task = P5 3 4 for 5 units.
+
+SJF:
+Running task = P3 2 1 for 5 units.
+Running task = P2 1 3 for 5 units.
+Running task = P5 3 4 for 5 units.
+Running task = P1 4 5 for 5 units.
+Running task = P4 2 7 for 5 units.
+
+Priority:
+Running task = P2 1 3 for 5 units.
+Running task = P3 2 1 for 5 units.
+Running task = P4 2 7 for 5 units.
+Running task = P5 3 4 for 5 units.
+Running task = P1 4 5 for 5 units.
+
+Round Robin:
+Running task = P1 4 5 for 5 units.
+Running task = P2 1 3 for 5 units.
+Running task = P3 2 1 for 5 units.
+Running task = P4 2 7 for 5 units.
+Running task = P5 3 4 for 5 units.
+
+AVERAGE WAIT TIMES
+
+FCFS: 3.2
+SJF: 2.6
+Priority: 3.0
+Round-Robin: 3.2
+
+TURNAROUND TIMES
+
+FCFS:
+['P1', '4', '5'] turn around time: 5
+['P2', '1', '3'] turn around time: 8
+['P3', '2', '1'] turn around time: 9
+['P4', '2', '7'] turn around time: 16
+['P5', '3', '4'] turn around time: 20
+
+
+SJF:
+['P3', '2', '1'] turn around time: 1
+['P2', '1', '3'] turn around time: 4
+['P5', '3', '4'] turn around time: 8
+['P1', '4', '5'] turn around time: 13
+['P4', '2', '7'] turn around time: 20
+
+
+Priority:
+['P2', '1', '3'] turn around time: 3
+['P3', '2', '1'] turn around time: 4
+['P4', '2', '7'] turn around time: 11
+['P5', '3', '4'] turn around time: 15
+['P1', '4', '5'] turn around time: 20
+
+
+Round Robin:
+['P1', '4', '5'] turn around time: 5
+['P2', '1', '3'] turn around time: 8
+['P3', '2', '1'] turn around time: 9
+['P4', '2', '7'] turn around time: 16
+['P5', '3', '4'] turn around time: 20

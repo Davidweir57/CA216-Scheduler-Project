@@ -1,0 +1,91 @@
+FCFS:
+Running task = T1 4 20 for 8 units.
+Running task = T2 3 25 for 8 units.
+Running task = T3 3 25 for 8 units.
+Running task = T4 5 15 for 8 units.
+Running task = T5 5 20 for 8 units.
+Running task = T6 1 10 for 8 units.
+Running task = T7 3 30 for 8 units.
+Running task = T8 10 25 for 8 units.
+
+SJF:
+Running task = T6 1 10 for 8 units.
+Running task = T4 5 15 for 8 units.
+Running task = T1 4 20 for 8 units.
+Running task = T5 5 20 for 8 units.
+Running task = T2 3 25 for 8 units.
+Running task = T3 3 25 for 8 units.
+Running task = T8 10 25 for 8 units.
+Running task = T7 3 30 for 8 units.
+
+Priority:
+Running task = T6 1 10 for 8 units.
+Running task = T2 3 25 for 8 units.
+Running task = T3 3 25 for 8 units.
+Running task = T7 3 30 for 8 units.
+Running task = T1 4 20 for 8 units.
+Running task = T4 5 15 for 8 units.
+Running task = T5 5 20 for 8 units.
+Running task = T8 10 25 for 8 units.
+
+Round Robin:
+Running task = T6 1 10 for 8 units.
+Running task = T1 4 20 for 8 units.
+Running task = T4 5 15 for 8 units.
+Running task = T5 5 20 for 8 units.
+Running task = T2 3 25 for 8 units.
+Running task = T3 3 25 for 8 units.
+Running task = T7 3 30 for 8 units.
+Running task = T8 10 25 for 8 units.
+
+AVERAGE WAIT TIMES
+
+FCFS: 18.125
+SJF: 17.5
+Priority: 18.125
+Round-Robin: 20.0
+
+TURNAROUND TIMES
+
+FCFS:
+['T1', '4', '20'] turn around time: 20
+['T2', '3', '25'] turn around time: 45
+['T3', '3', '25'] turn around time: 70
+['T4', '5', '15'] turn around time: 85
+['T5', '5', '20'] turn around time: 105
+['T6', '1', '10'] turn around time: 115
+['T7', '3', '30'] turn around time: 145
+['T8', '10', '25'] turn around time: 170
+
+
+SJF:
+['T6', '1', '10'] turn around time: 10
+['T4', '5', '15'] turn around time: 25
+['T1', '4', '20'] turn around time: 45
+['T5', '5', '20'] turn around time: 65
+['T2', '3', '25'] turn around time: 90
+['T3', '3', '25'] turn around time: 115
+['T8', '10', '25'] turn around time: 140
+['T7', '3', '30'] turn around time: 170
+
+
+Priority:
+['T6', '1', '10'] turn around time: 10
+['T2', '3', '25'] turn around time: 35
+['T3', '3', '25'] turn around time: 60
+['T7', '3', '30'] turn around time: 90
+['T1', '4', '20'] turn around time: 110
+['T4', '5', '15'] turn around time: 125
+['T5', '5', '20'] turn around time: 145
+['T8', '10', '25'] turn around time: 170
+
+
+Round Robin:
+['T6', '1', '10'] turn around time: 60
+['T1', '4', '20'] turn around time: 90
+['T4', '5', '15'] turn around time: 115
+['T5', '5', '20'] turn around time: 125
+['T2', '3', '25'] turn around time: 150
+['T3', '3', '25'] turn around time: 155
+['T7', '3', '30'] turn around time: 165
+['T8', '10', '25'] turn around time: 170

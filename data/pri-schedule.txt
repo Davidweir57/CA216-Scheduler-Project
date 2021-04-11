@@ -1,0 +1,75 @@
+FCFS:
+Running task = T1 1 50 for 6 units.
+Running task = T2 1 50 for 6 units.
+Running task = T3 1 50 for 6 units.
+Running task = T4 1 50 for 6 units.
+Running task = T5 1 50 for 6 units.
+Running task = T6 1 50 for 6 units.
+
+SJF:
+Running task = T1 1 50 for 6 units.
+Running task = T2 1 50 for 6 units.
+Running task = T3 1 50 for 6 units.
+Running task = T4 1 50 for 6 units.
+Running task = T5 1 50 for 6 units.
+Running task = T6 1 50 for 6 units.
+
+Priority:
+Running task = T1 1 50 for 6 units.
+Running task = T2 1 50 for 6 units.
+Running task = T3 1 50 for 6 units.
+Running task = T4 1 50 for 6 units.
+Running task = T5 1 50 for 6 units.
+Running task = T6 1 50 for 6 units.
+
+Round Robin:
+Running task = T1 1 50 for 6 units.
+Running task = T2 1 50 for 6 units.
+Running task = T3 1 50 for 6 units.
+Running task = T4 1 50 for 6 units.
+Running task = T5 1 50 for 6 units.
+Running task = T6 1 50 for 6 units.
+
+AVERAGE WAIT TIMES
+
+FCFS: 41.666666666666664
+SJF: 41.666666666666664
+Priority: 41.666666666666664
+Round-Robin: 48.333333333333336
+
+TURNAROUND TIMES
+
+FCFS:
+['T1', '1', '50'] turn around time: 50
+['T2', '1', '50'] turn around time: 100
+['T3', '1', '50'] turn around time: 150
+['T4', '1', '50'] turn around time: 200
+['T5', '1', '50'] turn around time: 250
+['T6', '1', '50'] turn around time: 300
+
+
+SJF:
+['T1', '1', '50'] turn around time: 50
+['T2', '1', '50'] turn around time: 100
+['T3', '1', '50'] turn around time: 150
+['T4', '1', '50'] turn around time: 200
+['T5', '1', '50'] turn around time: 250
+['T6', '1', '50'] turn around time: 300
+
+
+Priority:
+['T1', '1', '50'] turn around time: 50
+['T2', '1', '50'] turn around time: 100
+['T3', '1', '50'] turn around time: 150
+['T4', '1', '50'] turn around time: 200
+['T5', '1', '50'] turn around time: 250
+['T6', '1', '50'] turn around time: 300
+
+
+Round Robin:
+['T1', '1', '50'] turn around time: 250
+['T2', '1', '50'] turn around time: 260
+['T3', '1', '50'] turn around time: 270
+['T4', '1', '50'] turn around time: 280
+['T5', '1', '50'] turn around time: 290
+['T6', '1', '50'] turn around time: 300
