@@ -1,19 +1,19 @@
 ## CA216 CPU Scheduling
 
-This is the repo for the C starter files.  Read the details below carefully.  Note: the details of the different algorithms required for both the solo and pairs versions of the project are [found in the project spec](https://ca216.computing.dcu.ie/assessments/scheduling-assignment/) Only implement the files for the project-type you are undertaking.
+CA216 CPU Scheduler. This repo contains my implementation of the following 4 scheduling algorithms written in Python3:
 
-Completing this project will require writing the following C files
+      •	First-Come, First-Served (FCFS)
+      •	Shortest Job First (SJF)
+      •	Priority Scheduling
+      •	Round Robin
+      
+Each algorithm had to sort a text file of any number of tasks with given priority and buffer as well as a given quantum for Round Robin. 
 
-schedule_fcfs.c
-schedule_sjf.c
-schedule_rr.c
-schedule_priority.c
-schedule_priority_rr.c
+The program also contains:
 
-The supporting files invoke the appropriate scheduling algorithm. 
+		• a driver for displaying the information gathered.
+		• a data script to collect the turnaround time and wait times of each algorithm
+		• built-in error handling
 
-For example, to build the FCFS scheduler, enter
-```
-make fcfs
-```
-which builds the fcfs executable file.
+
+
